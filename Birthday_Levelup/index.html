@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanda Prasad | Level 22 Upgrade</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="start-overlay">
+        <h1>SYSTEM READY</h1>
+        <button id="start-btn">INITIALIZE v22.0</button>
+        <p>TAP TO START SOUND ENGINE</p>
+    </div>
+
+    <div id="ui-layer" style="display: none;">
+        <div class="header">
+            <div class="user-info">
+                <span class="name">NANDA PRASAD</span>
+                <span class="rank">FRONTEND DEVELOPER</span>
+            </div>
+            <div class="xp-bar-container">
+                <div id="xp-fill"></div>
+            </div>
+            <div class="stats">CURRENT: <span id="lvl-text">LEVEL 21</span> | XP: <span id="score">0</span>/100</div>
+        </div>
+        
+        <div id="center-notif">
+            <h1 id="main-msg">UPGRADING TO v22.0</h1>
+            <p>CLICK NODES TO FINISH THE BUILD</p>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
